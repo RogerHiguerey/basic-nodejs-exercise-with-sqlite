@@ -32,13 +32,18 @@
 ## Paso 4: Editar package.json
 
 1. Abre `package.json` en un editor de texto
-2. Modifica los campos según tus necesidades. Por ejemplo:
+2. Modifica los campos según tus necesidades. 
+   Por ejemplo:
+   ```
+   "type": "module",
+   ```
    ```json
    {
      "name": "mi-proyecto-nodejs",
      "version": "1.0.0",
      "description": "Mi primer proyecto Node.js",
      "main": "index.js",
+     "type": "module",
      "scripts": {
        "start": "node index.js",
        "dev": "nodemon index.js"
