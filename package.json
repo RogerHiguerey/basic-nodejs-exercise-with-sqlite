@@ -1,0 +1,23 @@
+{
+  "keywords": ["node", "principiante"],
+  "author": "Roger",
+  "license": "ISC",
+  "name": "practica-con-nodejs",
+  "description": "Mi primer proyecto Node.js básico con CRUD ECMAScript modules para aprender NODE.JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "sqlite": "^4.0.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
