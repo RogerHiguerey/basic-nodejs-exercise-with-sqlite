@@ -5,7 +5,7 @@
   "name": "practica-con-nodejs",
   "description": "Mi primer proyecto Node.js básico con CRUD ECMAScript modules para aprender NODE.JS",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
